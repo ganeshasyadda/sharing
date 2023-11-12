@@ -6,7 +6,7 @@ html {
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins';
-    
+    scroll-behavior: smooth;
 }
 
 body {
@@ -73,8 +73,8 @@ body {
 
 .img-gallery img:hover {
     box-shadow: 10px 10px 5px rgb(255, 208, 153);
-    -moz-box-shadow: 10px  0px 5px rgb(255, 208, 153);
-    -webkit-box-shadow: 11px 11px 10px rgb(255, 208, 153);
+    -moz-box-shadow: 10px  10px 5px rgb(255, 208, 153);
+    -webkit-box-shadow: 15px 15px 10px rgb(255, 208, 153);
     transform: scale(0.88); 
     border-radius: 10px;
 }
@@ -82,6 +82,5 @@ body {
 @media screen and (min-width: 768px){
 
 }
-
 
 
